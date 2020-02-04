@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="33278b84-f377-482f-9ada-c9f99c0a9250" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAWBACK/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAWBACK/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,7 @@
       <updated>1580779317885</updated>
       <workItem from="1580779398488" duration="398000" />
       <workItem from="1580779812332" duration="2953000" />
-      <workItem from="1580783339544" duration="451000" />
+      <workItem from="1580783339544" duration="769000" />
     </task>
     <task id="LOCAL-00001" summary="Deploy inicial Django">
       <created>1580781387237</created>
@@ -116,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580783537714</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ingresando informacion en settings.py">
+      <created>1580783953457</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580783953457</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +132,8 @@
     <MESSAGE value="Deploy inicial Django" />
     <MESSAGE value="create setup.py" />
     <MESSAGE value="ingresando requerimientos iniciales django 3.0.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="ingresando requerimientos iniciales django 3.0.3" />
+    <MESSAGE value="ingresando informacion en settings.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="ingresando informacion en settings.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="351" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580783407972">
@@ -137,10 +144,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="719" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580782241714" />
-    <state x="583" y="34" key="CommitChangelistDialog2" timestamp="1580783537012">
+    <state x="583" y="34" key="CommitChangelistDialog2" timestamp="1580783952778">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="583" y="34" key="CommitChangelistDialog2/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580783537012" />
+    <state x="583" y="34" key="CommitChangelistDialog2/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580783952778" />
     <state x="2335" y="304" key="CommitChangelistDialog2/0.0.1920.1050/1920.304.1366.738@1920.304.1366.738" timestamp="1580782550674" />
     <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1580783322434">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -163,10 +170,10 @@
     </state>
     <state x="461" y="168" key="SettingsEditor/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580779795735" />
     <state x="2016" y="323" key="SettingsEditor/0.0.1920.1050/1920.304.1366.738@1920.304.1366.738" timestamp="1580783507049" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1580783542135">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1580783959081">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580783542135" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580783959081" />
     <state x="2313" y="483" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.304.1366.738@1920.304.1366.738" timestamp="1580782560803" />
   </component>
 </project>
