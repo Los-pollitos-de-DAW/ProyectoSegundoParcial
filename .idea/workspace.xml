@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33278b84-f377-482f-9ada-c9f99c0a9250" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/repositorio/post_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repositorio/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAWBACK/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAWBACK/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAWBACK/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAWBACK/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -38,10 +43,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kevin\PycharmProjects\DAWBACK\repositorio" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="DAWBACK" type="Python.DjangoServer" factoryName="Django server">
@@ -95,7 +106,7 @@
       <workItem from="1580779812332" duration="2953000" />
       <workItem from="1580783339544" duration="2613000" />
       <workItem from="1580787700849" duration="9000" />
-      <workItem from="1580787977809" duration="4784000" />
+      <workItem from="1580787977809" duration="5720000" />
     </task>
     <task id="LOCAL-00001" summary="Deploy inicial Django">
       <created>1580781387237</created>
@@ -202,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580792541049</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="&#10;intento">
+      <created>1580793437445</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1580793437445</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,36 +246,36 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="719" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580789013258" />
-    <state x="583" y="34" key="CommitChangelistDialog2" timestamp="1580792540348">
+    <state x="583" y="34" key="CommitChangelistDialog2" timestamp="1580793436813">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="583" y="34" key="CommitChangelistDialog2/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580792540348" />
+    <state x="583" y="34" key="CommitChangelistDialog2/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580793436813" />
     <state x="2335" y="304" key="CommitChangelistDialog2/0.0.1920.1050/1920.304.1366.738@1920.304.1366.738" timestamp="1580782550674" />
-    <state width="1306" height="158" key="GridCell.Tab.0.bottom" timestamp="1580792926070">
+    <state width="1877" height="262" key="GridCell.Tab.0.bottom" timestamp="1580794220774">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1306" height="158" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580792926070" />
-    <state width="1306" height="158" key="GridCell.Tab.0.center" timestamp="1580792926070">
+    <state width="1877" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580794220774" />
+    <state width="1877" height="262" key="GridCell.Tab.0.center" timestamp="1580794220774">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1306" height="158" key="GridCell.Tab.0.center/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580792926070" />
-    <state width="1306" height="158" key="GridCell.Tab.0.left" timestamp="1580792926070">
+    <state width="1877" height="262" key="GridCell.Tab.0.center/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580794220774" />
+    <state width="1877" height="262" key="GridCell.Tab.0.left" timestamp="1580794220774">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1306" height="158" key="GridCell.Tab.0.left/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580792926070" />
-    <state width="1306" height="158" key="GridCell.Tab.0.right" timestamp="1580792926070">
+    <state width="1877" height="262" key="GridCell.Tab.0.left/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580794220774" />
+    <state width="1877" height="262" key="GridCell.Tab.0.right" timestamp="1580794220774">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1306" height="158" key="GridCell.Tab.0.right/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580792926070" />
+    <state width="1877" height="262" key="GridCell.Tab.0.right/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580794220774" />
     <state x="461" y="168" key="SettingsEditor" timestamp="1580785369697">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="168" key="SettingsEditor/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580785369697" />
     <state x="2016" y="323" key="SettingsEditor/0.0.1920.1050/1920.304.1366.738@1920.304.1366.738" timestamp="1580783507049" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1580792543687">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1580793443078">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580792543687" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580793443078" />
     <state x="2313" y="483" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.304.1366.738@1920.304.1366.738" timestamp="1580782560803" />
     <state x="623" y="371" key="search.everywhere.popup" timestamp="1580791586332">
       <screen x="0" y="0" width="1920" height="1050" />
