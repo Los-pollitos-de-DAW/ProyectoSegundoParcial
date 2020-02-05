@@ -4,7 +4,6 @@
     <list default="true" id="33278b84-f377-482f-9ada-c9f99c0a9250" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repositorio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/repositorio/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repositorio/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/repositorio/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/angular-ou8map" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -115,6 +114,7 @@
       <workItem from="1580787700849" duration="9000" />
       <workItem from="1580787977809" duration="20195000" />
       <workItem from="1580870696815" duration="10021000" />
+      <workItem from="1580895856304" duration="96000" />
     </task>
     <task id="LOCAL-00001" summary="Deploy inicial Django">
       <created>1580781387237</created>
