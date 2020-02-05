@@ -7,12 +7,23 @@ from repositorio.serializers import *
 class RolList(generics.ListCreateAPIView):
     queryset = Rol.objects.all()
     serializer_class = RolSerializer
+
+
 class RolDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Rol.objects.all()
     serializer_class = RolSerializer
 
 
+class RolList2(generics.ListAPIView):
+    serializer_class = RolSerializer
 
+    def get_queryset(self):
+        """
+        This view should return a list of all the purchases for
+        the user as determined by the username portion of the URL.
+        """
+        username = self.kwargs['nom']
+        return Rol.objects.filter(nombreRol=username)
 
 def post_list(request):
     posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')

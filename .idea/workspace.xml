@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="33278b84-f377-482f-9ada-c9f99c0a9250" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAWBACK/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAWBACK/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repositorio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/repositorio/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repositorio/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/repositorio/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +114,7 @@
       <workItem from="1580783339544" duration="2613000" />
       <workItem from="1580787700849" duration="9000" />
       <workItem from="1580787977809" duration="20195000" />
-      <workItem from="1580870696815" duration="3476000" />
+      <workItem from="1580870696815" duration="6333000" />
     </task>
     <task id="LOCAL-00001" summary="Deploy inicial Django">
       <created>1580781387237</created>
@@ -263,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580861546687</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Pruebas en django rest framework">
+      <created>1580882036327</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1580882036327</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,9 +305,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="719" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580789013258" />
-    <state x="583" y="34" key="CommitChangelistDialog2" timestamp="1580861545956">
+    <state x="583" y="34" key="CommitChangelistDialog2" timestamp="1580882035438">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="583" y="34" key="CommitChangelistDialog2/0.0.1920.1050/1920.302.1280.738@0.0.1920.1050" timestamp="1580882035438" />
     <state x="583" y="34" key="CommitChangelistDialog2/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580861545956" />
     <state x="2335" y="304" key="CommitChangelistDialog2/0.0.1920.1050/1920.304.1366.738@1920.304.1366.738" timestamp="1580782550674" />
     <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1580878360255">
@@ -333,9 +341,10 @@
     </state>
     <state x="461" y="168" key="SettingsEditor/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580845589443" />
     <state x="2016" y="323" key="SettingsEditor/0.0.1920.1050/1920.304.1366.738@1920.304.1366.738" timestamp="1580783507049" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1580861761277">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1580882043474">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.302.1280.738@0.0.1920.1050" timestamp="1580882043474" />
     <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580861761277" />
     <state x="2313" y="483" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.304.1366.738@1920.304.1366.738" timestamp="1580782560803" />
     <state x="623" y="371" key="search.everywhere.popup" timestamp="1580791586332">
