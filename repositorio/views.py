@@ -8,10 +8,20 @@ class RolList(generics.ListCreateAPIView):
     queryset = Rol.objects.all()
     serializer_class = RolSerializer
 
+class UsuarioList(generics.ListCreateAPIView):
+    queryset = Usuario.objects.all()
+    serializer_class = UsuarioSerializer
+
+class NoticiaList(generics.ListCreateAPIView):
+    queryset = Noticia.objects.all()
+    serializer_class = NoticiaSerializer
+
 
 class RolDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Rol.objects.all()
     serializer_class = RolSerializer
+
+
 
 
 class RolList2(generics.ListAPIView):
