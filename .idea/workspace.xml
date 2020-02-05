@@ -114,7 +114,7 @@
       <workItem from="1580783339544" duration="2613000" />
       <workItem from="1580787700849" duration="9000" />
       <workItem from="1580787977809" duration="20195000" />
-      <workItem from="1580870696815" duration="8348000" />
+      <workItem from="1580870696815" duration="10021000" />
     </task>
     <task id="LOCAL-00001" summary="Deploy inicial Django">
       <created>1580781387237</created>
@@ -277,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580887844143</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="push rest noticia">
+      <created>1580890842946</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1580890842946</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +309,8 @@
     <MESSAGE value="Creación de modelos" />
     <MESSAGE value="Pruebas en django rest framework" />
     <MESSAGE value="Prueba" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prueba" />
+    <MESSAGE value="push rest noticia" />
+    <option name="LAST_COMMIT_MESSAGE" value="push rest noticia" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="351" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580783407972">
@@ -313,10 +321,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="719" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580789013258" />
-    <state x="583" y="34" key="CommitChangelistDialog2" timestamp="1580887843457">
+    <state x="583" y="34" key="CommitChangelistDialog2" timestamp="1580890842244">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="583" y="34" key="CommitChangelistDialog2/0.0.1920.1050/1920.302.1280.738@0.0.1920.1050" timestamp="1580887843457" />
+    <state x="583" y="34" key="CommitChangelistDialog2/0.0.1920.1050/1920.302.1280.738@0.0.1920.1050" timestamp="1580890842244" />
     <state x="583" y="34" key="CommitChangelistDialog2/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580861545956" />
     <state x="2335" y="304" key="CommitChangelistDialog2/0.0.1920.1050/1920.304.1366.738@1920.304.1366.738" timestamp="1580782550674" />
     <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1580878360255">
@@ -349,10 +357,10 @@
     </state>
     <state x="461" y="168" key="SettingsEditor/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580845589443" />
     <state x="2016" y="323" key="SettingsEditor/0.0.1920.1050/1920.304.1366.738@1920.304.1366.738" timestamp="1580783507049" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1580887974698">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1580891033613">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.302.1280.738@0.0.1920.1050" timestamp="1580887974698" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.302.1280.738@0.0.1920.1050" timestamp="1580891033613" />
     <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580861761277" />
     <state x="2313" y="483" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.304.1366.738@1920.304.1366.738" timestamp="1580782560803" />
     <state x="623" y="371" key="search.everywhere.popup" timestamp="1580791586332">

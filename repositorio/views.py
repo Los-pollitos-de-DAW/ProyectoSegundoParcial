@@ -16,6 +16,15 @@ class NoticiaList(generics.ListCreateAPIView):
     queryset = Noticia.objects.all()
     serializer_class = NoticiaSerializer
 
+class NoticiaListID(generics.ListAPIView):
+    serializer_class = NoticiaSerializer
+    def get_queryset(self):
+        """
+        This view should return a list of all the purchases for
+        the user as determined by the username portion of the URL.
+        """
+        id = self.kwargs['id']
+        return Noticia.objects.filter(idNoticia=id)
 
 class RolDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Rol.objects.all()
