@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33278b84-f377-482f-9ada-c9f99c0a9250" name="Default Changelist" comment="">
+    <list default="true" id="33278b84-f377-482f-9ada-c9f99c0a9250" name="Default Changelist" comment="Creación de modelos">
+      <change afterPath="$PROJECT_DIR$/repositorio/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAWBACK/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAWBACK/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repositorio/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/repositorio/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repositorio/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/repositorio/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repositorio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/repositorio/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repositorio/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/repositorio/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +20,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="chrallar &lt;chrallar@espol.edu.ec&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -48,6 +53,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/abrir" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -109,7 +115,7 @@
       <workItem from="1580779812332" duration="2953000" />
       <workItem from="1580783339544" duration="2613000" />
       <workItem from="1580787700849" duration="9000" />
-      <workItem from="1580787977809" duration="16051000" />
+      <workItem from="1580787977809" duration="18618000" />
     </task>
     <task id="LOCAL-00001" summary="Deploy inicial Django">
       <created>1580781387237</created>
@@ -244,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580796982632</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Creación de modelos">
+      <created>1580848080642</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1580848080642</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +272,8 @@
     <MESSAGE value="settings.py" />
     <MESSAGE value="whitenoise settings" />
     <MESSAGE value="&#10;intento" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;intento" />
+    <MESSAGE value="Creación de modelos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creación de modelos" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="351" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580783407972">
@@ -270,40 +284,40 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="719" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580789013258" />
-    <state x="583" y="34" key="CommitChangelistDialog2" timestamp="1580796981962">
+    <state x="583" y="34" key="CommitChangelistDialog2" timestamp="1580848212510">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="583" y="34" key="CommitChangelistDialog2/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580796981962" />
+    <state x="583" y="34" key="CommitChangelistDialog2/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580848212510" />
     <state x="2335" y="304" key="CommitChangelistDialog2/0.0.1920.1050/1920.304.1366.738@1920.304.1366.738" timestamp="1580782550674" />
     <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1580831596925">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580831596925" />
-    <state width="1877" height="262" key="GridCell.Tab.0.bottom" timestamp="1580847928362">
+    <state width="1877" height="157" key="GridCell.Tab.0.bottom" timestamp="1580861493192">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580847928362" />
-    <state width="1877" height="262" key="GridCell.Tab.0.center" timestamp="1580847928362">
+    <state width="1877" height="157" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580861493192" />
+    <state width="1877" height="157" key="GridCell.Tab.0.center" timestamp="1580861493192">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.center/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580847928362" />
-    <state width="1877" height="262" key="GridCell.Tab.0.left" timestamp="1580847928362">
+    <state width="1877" height="157" key="GridCell.Tab.0.center/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580861493192" />
+    <state width="1877" height="157" key="GridCell.Tab.0.left" timestamp="1580861493192">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.left/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580847928362" />
-    <state width="1877" height="262" key="GridCell.Tab.0.right" timestamp="1580847928362">
+    <state width="1877" height="157" key="GridCell.Tab.0.left/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580861493192" />
+    <state width="1877" height="157" key="GridCell.Tab.0.right" timestamp="1580861493192">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.right/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580847928362" />
+    <state width="1877" height="157" key="GridCell.Tab.0.right/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580861493192" />
     <state x="461" y="168" key="SettingsEditor" timestamp="1580845589443">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="168" key="SettingsEditor/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580845589443" />
     <state x="2016" y="323" key="SettingsEditor/0.0.1920.1050/1920.304.1366.738@1920.304.1366.738" timestamp="1580783507049" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1580796987681">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1580848182272">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580796987681" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.304.1366.738@0.0.1920.1050" timestamp="1580848182272" />
     <state x="2313" y="483" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.304.1366.738@1920.304.1366.738" timestamp="1580782560803" />
     <state x="623" y="371" key="search.everywhere.popup" timestamp="1580791586332">
       <screen x="0" y="0" width="1920" height="1050" />
